@@ -1,0 +1,143 @@
+
+// LEMBRAR DE RODA O NPM RUN DEV PARA AUTUALIZAR O STYLE
+@font-face {
+    font-family: centuryGothic;
+    src: url(../../../public/assets/fonts/Century-Gothic.ttf);
+}
+
+@font-face {
+    font-family: fingbanger;
+    src: url(../../../public/assets/fonts/Fingbanger.otf);
+}
+
+@font-face {
+    font-family: cunia;
+    src: url(../../../public/assets/fonts/cunia.ttf);
+}
+
+$theme-colors: (
+  "primary": #3c54a0,
+  "danger": #db863e,
+  "success": #08ad23,
+  "info": #1d8ae4,
+  "nuancy": #941de4,
+  "yellow": #fcd98e,
+  "delet": #fd7171
+);
+
+.container-forms{
+    width: 100%;
+    padding: 10px;
+    border: solid 1px #d3d3d3;
+    border-radius: 5px;
+}
+
+//shadow
+.shadow-owner{
+    -webkit-box-shadow: -2px 5px 15px -1px #000000;
+    box-shadow: -2px 5px 15px -1px #000000;
+}
+
+// placeholder
+.form-control::-moz-placeholder {
+    color: #9aa0a56c!important;
+    opacity: 1;
+}
+.form-control:-ms-input-placeholder {
+    color: #9aa0a56c!important;
+    opacity: 1;
+}
+.form-control::placeholder {
+    color: #9aa0a56c!important;
+    opacity: 1;
+}
+
+.center-col{
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    margin: 10px 0;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 50px;
+    padding: 0 50px;
+    background-color: #3c54a0;
+    color: #fff;
+}
+
+.menu img{
+    width: 8%;
+}
+
+.background-cyan{
+    background-color: #aacae554;
+    border-radius: 4px;
+    margin: 10px 0;
+}
+
+.background-yellon{
+    background-color: #f9ffc4;
+    border-radius: 4px;
+    margin: 10px 0;
+}
+
+.card-img-top{
+    margin-bottom: 5px;
+}
+
+.bt-medium{
+    width: 70px;
+}
+
+.app-login-register a{
+    color: #fff;
+    margin-left: 10px;
+}
+
+.menuDashboard{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 200px;
+    background-image: linear-gradient(90deg, #038ff4, #1591c7 60%, #01aae1);
+    background-repeat: no-repeat;
+}
+
+.menuDashboard .item{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 2px #fff;
+    border-radius: 5px;
+    width: 70px;
+    height: 70px;
+    color: #fff;
+}
+
+.menuDashboard .title{
+    margin-top: 5px;
+    color: #fff;
+    font-weight: 500;
+    text-decoration:none;
+}
+
+.menuDashboard .title:hover{
+    transform: scale(0.7);
+}
+
+.item svg{
+    width: 60% !important;
+}
+
+@import "~bootstrap/scss/bootstrap";
+@import "~@fortawesome/fontawesome-free/css//all.min.css";
+@import "styleWelcome.css";

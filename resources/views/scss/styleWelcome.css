@@ -1,0 +1,113 @@
+
+@font-face {
+    font-family: centuryGothic;
+    src: url(../../../public/assets/fonts/Century-Gothic.ttf);
+}
+
+@font-face {
+    font-family: fingbanger;
+    src: url(../../../public/assets/fonts/Fingbanger.otf);
+}
+
+@font-face {
+    font-family: cunia;
+    src: url(../../../public/assets/fonts/cunia.ttf);
+}
+
+.bt-enter{
+    font-family: centuryGothic;
+    font-size: 21px !important;
+}
+
+.banner{
+    width: 100%;
+}
+
+.logo{
+    position: absolute;
+    height: 22%;
+    left: 3%;
+    top: 11%;
+}
+
+.nav-welcome{
+    /* position: absolute; */
+}
+
+.menu-fixed{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    background-color: #3766e6db;
+}
+
+.menu-fixed a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.menu-fixed span{
+    margin: 0 10px;
+}
+
+.context-icon{
+    padding: 8px 100px;
+    font-family: 'centuryGothic';
+    color: #919191;
+    text-align: center;
+}
+
+.tile-icon{
+    margin: 39px 0;
+    font-family: cunia;
+    font-size: 15px;
+    color: #0054a7;
+}
+
+
+
+
+
+
+.items-menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 374px;
+    height: 30px;
+    border-bottom: 1px solid #fff;
+}
+
+.items-menu a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.items-menu a:hover{
+    color: #ffffffba;
+}
+
+.items-menu span{
+    color: #fff;
+}
+
+.bt-round-outline{
+    border: 1px solid #ffffff;
+    /* background-color: #ffffffe8; */
+    /* color: #3c57a1 !important; */
+    border-radius: 30px;
+    padding: 0px 20px;
+    height: 22px;
+    font-size: 15px !important;
+    margin-top: 3px;
+    line-height: 19px;
+}
+
+.bt-round-outline:hover{
+    transform: scale(1.05);
+}
