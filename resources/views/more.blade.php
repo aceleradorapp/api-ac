@@ -57,7 +57,7 @@
                     </div>
                     <div class="col-md-6">
                         <h1 class="hide-mobile">Como fazer parte de nossa equipe</h1>
-                        <p style="opacity:0.7; font-size: 18px">Oferecemos treinamentos para as pessoas que gostariam de fazer parte da nossa equipe de produção interativa e isso poder ser uma boa opção de remuneração trabalhando totalmente no conforte de sua casa.
+                        <p style="opacity:0.7; font-size: 18px; color: black;">Oferecemos treinamentos para as pessoas que gostariam de fazer parte da nossa equipe de produção interativa e isso poder ser uma boa opção de remuneração trabalhando totalmente no conforte de sua casa.
                             Para fazer parte da nossa equipe, primeiro é necessário criar um conta no portal para ter acesso ao nosso conteúdo.
                             Feito isso, será liberado um treinamento onde conhecerá todo o processo de criação dos conteúdos, detalhando cada etapa e o uso dos aplicativos.
                             Conhecendo todo o processo, poderá escolher qual ou quais etapas o seu perfil atende e fazer os treinamentos com os aplicativos usados nas etapas escolhidas.
