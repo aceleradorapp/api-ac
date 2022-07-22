@@ -104,7 +104,8 @@
                 </div>
                 <div class="row justify-content-md-center">
                     <div class="col-md-10">
-                        <p class="text-destac-xtools">A Xtolls é uma coleção aplicativos e serviços para desktop, dispositivos móveis e também disponível on-line no portal Aceleradora de conteúdo. São ferramentas para criação de material interativo, simulações, experiência do usuário e muito mais. Agora você pode dar vida as suas idéias</p>
+                        <p class="text-destac-xtools">A Xtolls é uma coleção aplicativos e serviços para desktop, dispositivos móveis e também disponível on-line no portal Aceleradora de conteúdo. São ferramentas para criação de material interativo, simulações, experiência do usuário e muito mais.</p>
+                        <p class="text-destac-xtools">Agora você pode dar vida as suas idéias!</p>
                     </div>
                 </div>                
             </div>
