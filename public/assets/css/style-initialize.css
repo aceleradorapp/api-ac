@@ -121,6 +121,25 @@ body{
     display: none;
 }
 
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer .footer-item{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;        
+}
+
+.footer .footer-item a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Calibri;  
+    margin-top: 31px;
+}
+
 
 
 @media ( max-width: 768px){

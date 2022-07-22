@@ -107,7 +107,22 @@
 
         </div>
 
-        
+        <div class="gradient">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="footer">
+                            <!-- <img src="{{ asset('assets/image/logoAC.png') }}" class="hide-mobile" alt="" style="width:5%; margin-top: 30px;"> -->
+                            <div class="footer-item">
+                                <a href="" class="btn-menu">Empresa</a>
+                                <a href="" class="btn-menu">Contato</a>
+                                <a href="" class="btn-menu">Cadastro</a>
+                            </div>
+                        </div>
+                    </div> 
+                </div>                
+            </div>
+        </div>
 
         <script src="{{ asset('assets/js/jquery.js') }}"></script>
         <script src="{{ asset('assets/js/bootstrap.js')}}"></script>
