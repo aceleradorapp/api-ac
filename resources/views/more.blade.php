@@ -29,14 +29,14 @@
                     </div>
                 </div>
                 <div class="row space-top">
-                    <div class="col-md-6 space-logo-page">
+                    <div class="col-md-4 space-logo-page">
                         <div class="logo-init">
                             <img src="{{ asset('assets/image/logoAC.png') }}" class="" alt="" style="width:30%">
                         </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-8">
                         <div class="content">                                                        
-                            <h1 class="hide-mobile" style="text-align: center;">Junte-se a nós.</h1>                         
+                            <h1 class="hide-mobile" style="text-align: center;">Seja um colaborador e junte-se nós.</h1>                         
                         </div>
                     </div>            
 
