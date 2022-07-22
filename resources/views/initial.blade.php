@@ -37,7 +37,9 @@
                     </div>
                     <div class="col-md-6">
                         <div class="content">
-                            <p class="text-destac">Aceleradora de conteúdo é formada por uma equipe treinada para desenvolvimento de material interativo, usamos uma série de ferramentas que auxiliam no desenvolvimento do material interativo acelerando a produtividade, criando conteúdo com qualidade e rapidez.</p>
+                            <p class="text-destac">Aceleradora de conteúdo foi criada com intuito de proporcionar conteúdos interativos com qualidade e agilidade na entrega. Formada por uma equipe capacitada, conseguimos atender todas as necessidades que você procura.</p>
+                            <p>Entre na sessão empresas e descubra mais.</p>
+                            <br><br>
                             <p>Faça parte de nossa equipe.</p>
                             <a href="{{ url('registration') }}" class="btn-menu btn-destac">Quero fazer parte da equipe</a>
                             <a href="{{ url('more') }}" class="btn-menu">Saiba mais</a>                            
