@@ -22,8 +22,16 @@ Route::get('/', function () {
     return view('initial');
 });
 
+// Route::get('/', function () {
+//     return view('welcome');
+// });
+
 Route::get('/more', function () {
     return view('more');
+});
+
+Route::get('/registration', function () {
+    return view('registration');
 });
 
 Auth::routes();

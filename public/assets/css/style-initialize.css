@@ -117,6 +117,10 @@ body{
     margin-top: 0px;
 }
 
+.hide-desktop{
+    display: none;
+}
+
 
 
 @media ( max-width: 768px){
@@ -148,7 +152,15 @@ body{
         margin-top: 85px;
     }
 
+    .space-logo-page{
+        height: 50px;
+    }
+
     .hide-mobile{
         display: none;
+    }
+
+    .hide-desktop{
+        display: block;
     }
 }

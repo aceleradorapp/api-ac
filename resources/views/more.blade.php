@@ -29,15 +29,14 @@
                     </div>
                 </div>
                 <div class="row space-top">
-                    <div class="col-md-6">
+                    <div class="col-md-6 space-logo-page">
                         <div class="logo-init">
                             <img src="{{ asset('assets/image/logoAC.png') }}" class="" alt="" style="width:30%">
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <div class="content">                            
-                            <p class="text-destac">Equipe de produção de conteúdo.</p>
-                                                       
+                        <div class="content">                                                        
+                            <h1 class="hide-mobile" style="text-align: center;">Junte-se a nós.</h1>                         
                         </div>
                     </div>            
 
@@ -49,11 +48,13 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <h1>Faça parte da nossa equipe de produção</h1>
+                        <h1 class="hide-desktop" style="text-align: center; font-family: Calibri !important;">Junte-se a nós.</h1>
                     </div>
                 </div>
-                <div class="row">
-                    
+                <div class="row justify-content-md-center">
+                    <div class="col-md-6">
+                    <h1 class="hide-mobile">Como fazer parte de nossa equipe</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum quasi a eveniet non magnam sapiente aspernatur obcaecati molestiae.</p>
                 </div>                
             </div>
         </div>
