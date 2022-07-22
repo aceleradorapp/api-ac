@@ -80,7 +80,7 @@
                             <div class="footer-item">
                                 <a href="" class="btn-menu hide-mobile">Empresa</a>
                                 <a href="" class="btn-menu hide-mobile">Contato</a>
-                                <a href="{{ url('registration') }}" class="btn-menu">Cadastro</a>
+                                <a href="{{ url('registration') }}" class="btn-menu hide-mobile">Cadastro</a>
                             </div>
                         </div>
                     </div> 
