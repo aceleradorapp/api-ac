@@ -19,12 +19,11 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="menu-top">
-                            <div class="item">                                
-                                <div class="btn-menu ">Empresas</div>
-                                <div class="btn-menu ">Contato</div>
+                            <div class="item">                                                                
+                                <a href="{{ url('/') }}" class="btn-menu">Voltar</a>                               
                             </div>
                             <div class="item">
-                                <div class="btn-menu">Entrar</div>                                
+                               
                             </div>
                         </div>
                     </div>
