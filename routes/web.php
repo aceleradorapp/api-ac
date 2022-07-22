@@ -22,6 +22,10 @@ Route::get('/', function () {
     return view('initial');
 });
 
+Route::get('/more', function () {
+    return view('more');
+});
+
 Auth::routes();
 
 

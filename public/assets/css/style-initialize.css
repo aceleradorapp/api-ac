@@ -37,6 +37,10 @@ body{
     background-color: #ffffff1f;
 }
 
+.btn-destac{
+    background-color: #04fd3a3b !important;
+}
+
 .logo-init{
     display: flex;
     justify-content: center;
