@@ -60,7 +60,6 @@
         </div>
 
         <div class="container">
-
         </div>        
 
         <script src="{{ asset('assets/js/jquery.js') }}"></script>
