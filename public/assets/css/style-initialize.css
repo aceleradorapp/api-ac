@@ -56,6 +56,13 @@ body{
     color: #fff;
 }
 
+.content-info{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+}
+
 .content-tools{
     padding: 35px 0;
     color: #ff730b;
@@ -86,6 +93,8 @@ body{
 }
 
 .item-tool .text-tool{
+    width: 100%;
+    text-align: center;
     font-family: Calibri;
     font-size: 18px;
     color: #626262;
@@ -141,7 +150,44 @@ body{
     margin-top: 31px;
 }
 
+.footer-fixed{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
 
+.xtool .xtool-card{
+    padding: 44px 15px;
+    margin: 13px 0;
+    border: solid 3px #ff730b38;
+    border-radius: 10px;
+    min-height: 333px;
+}
+
+.xtool span{
+    font-family: Calibri;
+    font-size: 44px;
+    font-weight: 900;
+    color: #ff730b;
+    margin-left: 20px;
+}
+
+.xtool img{
+    margin-bottom: 20px;
+}
+
+.text-destac-xtools{
+    color: #ff730b !important;
+    margin-top: 35px !important;
+}
+
+.logo-more{
+    margin: 60px 0px 40px 11px;    
+}
+
+.logo-register{
+    opacity: 0.5;
+}
 
 @media ( max-width: 768px){
     .space-vertical-item{
@@ -182,5 +228,14 @@ body{
 
     .hide-desktop{
         display: block;
+    }
+
+    .footer-fixed{
+        position: inherit;
+    }
+
+    .logo-more{
+        margin: 40px 0px 40px 11px;
+        width: 90%;
     }
 }

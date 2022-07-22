@@ -51,7 +51,10 @@
                         <h1 class="hide-desktop" style="text-align: center;">Faça parte da nossa equipe de produção</h1>
                     </div>
                 </div>
-                <div class="row justify-content-md-center">
+                <div class="row justify-content-md-center--">
+                    <div class="col-md-6">                        
+                        <img src="{{ asset('assets/image/loco-register.png') }}" alt="" class="logo-register">
+                    </div>
                     <div class="col-md-6">
                         <div class="card-body">
                             <form method="POST" action="{{ route('register') }}">
@@ -116,21 +119,31 @@
                                 </div>
                             </form>
                         </div>
-                    </div>
+                        <div >
+                            <p>Assim que concluir o cadastro em nosso portal, receberá um e-mail de para comprovação de da sua conta na sua caixa de mensagem e seja muito bem-vindo a equipe aceleradora de conteúdo.</p>
+                        </div>
+                    </div>                    
                 </div>  
-                
-                <div class="row justify-content-md-center">
-                    <div class="col-md-6">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore labore, dolor repellat nobis odio velit blanditiis fugiat libero, dicta dignissimos reiciendis temporibus asperiores eos molestiae est rerum magnam. Rerum, ipsam?</p>
-                    </div>
-                </div>
                 
             </div>
         </div>
 
-        <div class="container">
-
-        </div>        
+        <div class="gradient footer-fixed">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="footer">
+                            <!-- <img src="{{ asset('assets/image/logoAC.png') }}" class="hide-mobile" alt="" style="width:5%; margin-top: 30px;"> -->
+                            <div class="footer-item">
+                                <a href="" class="btn-menu hide-mobile">Empresa</a>
+                                <a href="" class="btn-menu hide-mobile">Contato</a>
+                                <a href="{{ url('registration') }}" class="btn-menu hide-mobile">Cadastro</a>
+                            </div>
+                        </div>
+                    </div> 
+                </div>                
+            </div>
+        </div>       
 
         <script src="{{ asset('assets/js/jquery.js') }}"></script>
         <script src="{{ asset('assets/js/bootstrap.js')}}"></script>

@@ -51,16 +51,42 @@
                         <h1 class="hide-desktop" style="text-align: center; font-family: Calibri !important;">Junte-se a nós.</h1>
                     </div>
                 </div>
-                <div class="row justify-content-md-center">
+                <div class="row ">
                     <div class="col-md-6">
-                    <h1 class="hide-mobile">Como fazer parte de nossa equipe</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum quasi a eveniet non magnam sapiente aspernatur obcaecati molestiae.</p>
+                        <img src="{{ asset('assets/image/junte-se.png') }}" alt="" class="logo-more">
+                    </div>
+                    <div class="col-md-6">
+                        <h1 class="hide-mobile">Como fazer parte de nossa equipe</h1>
+                        <p style="opacity:0.7; font-size: 18px">Oferecemos treinamentos para as pessoas que gostariam de fazer parte da nossa equipe de produção interativa e isso poder ser uma boa opção de remuneração trabalhando totalmente no conforte de sua casa.
+                            Para fazer parte da nossa equipe, primeiro é necessário criar um conta no portal para ter acesso ao nosso conteúdo.
+                            Feito isso, será liberado um treinamento onde conhecerá todo o processo de criação dos conteúdos, detalhando cada etapa e o uso dos aplicativos.
+                            Conhecendo todo o processo, poderá escolher qual ou quais etapas o seu perfil atende e fazer os treinamentos com os aplicativos usados nas etapas escolhidas.
+                            Realizado estas etapas pode solicitar materiais para trabalhar no próprio site.
+                        </p>
+                        <a href="{{ url('registration') }}" class="btn-menu" style="color: #ffffff !important; background-color: #ff9544 !important;">
+                            Criar minha conta
+                        </a>
+                    </div>                    
                 </div>                
             </div>
         </div>
 
-        <div class="container">
-        </div>        
+        <div class="gradient footer-fixed">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="footer">
+                            <!-- <img src="{{ asset('assets/image/logoAC.png') }}" class="hide-mobile" alt="" style="width:5%; margin-top: 30px;"> -->
+                            <div class="footer-item">
+                                <a href="" class="btn-menu hide-mobile">Empresa</a>
+                                <a href="" class="btn-menu hide-mobile">Contato</a>
+                                <a href="{{ url('registration') }}" class="btn-menu">Cadastro</a>
+                            </div>
+                        </div>
+                    </div> 
+                </div>                
+            </div>
+        </div>   
 
         <script src="{{ asset('assets/js/jquery.js') }}"></script>
         <script src="{{ asset('assets/js/bootstrap.js')}}"></script>

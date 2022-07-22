@@ -62,7 +62,7 @@
                             <img class="img-logo" src="{{ asset('assets/image/logo-pequeno-xt.png') }}" class="" alt="">                              
                             <span>Xtool Create</span>
                             <div class="text-tool">  
-                                Xtoon Create ferramenta que auxilia na criação do material em mídia para produção de conteúdo interativo.
+                                Mídia de suporte para roteiros.
                             </div>
                         </div>
                     </div>
@@ -73,7 +73,7 @@
                             <img class="img-logo" src="{{ asset('assets/image/logo-pequeno-xt.png') }}" class="" alt="">
                             <span>Xtool Script</span>
                             <div class="text-tool">                                
-                                Xtoon Script, ferramenta para criação de conteúdo escrito, roteiros, facilitando e aumentando a produção do material.
+                                Roteiros.
                             </div>
                         </div>
                     </div>
@@ -84,7 +84,7 @@
                         <img class="img-logo" src="{{ asset('assets/image/logo-pequeno-xt.png') }}" class="" alt="">                              
                         <span>Xtool Production</span>
                             <div class="text-tool">                                
-                                Xtoon Production, ferramenta de suporte para criação mídias para produção de conteúdo interativo.
+                                Mídia de suporte para produção.
                             </div>
                         </div>
                     </div>
@@ -95,16 +95,69 @@
                             <img class="img-logo" src="{{ asset('assets/image/logo-pequeno-xt.png') }}" class="" alt="">
                             <span>Xtool Simulation</span>
                             <div class="text-tool">                                
-                                Xtoon Simulation ferramenta de autoria para criação de animações, simulação e vídeo simulado.
+                                Simulações e midia interativa.
                             </div>
                         </div>
                     </div> 
+                </div>
+                <div class="row justify-content-md-center">
+                    <div class="col-md-10">
+                        <p class="text-destac-xtools">A Xtolls é uma coleção aplicativos e serviços para desktop, dispositivos móveis e também disponível on-line no portal Aceleradora de conteúdo. São ferramentas para criação de material interativo, simulações, experiência do usuário e muito mais. Agora você pode dar vida as suas idéias</p>
+                    </div>
                 </div>                
             </div>
         </div>
 
         <div class="container">
-
+            <div class="xtool">                
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="content-info">
+                            <img class="" src="{{ asset('assets/image/logo-800x800-xt.png') }}" class="" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="xtool-card">
+                            <img class="img-logo" src="{{ asset('assets/image/logo-pequeno-xt.png') }}" class="" alt="">
+                            <span class="item-xtool">Xtool Create</span>
+                            <div class="text-tool">                                
+                                Aplicativo desenvolvido para criação de mídias de suporte que será utilizado para desenvolver o roteiro do conteúdo interativo. Com ele é possível criar vídeos, legendas, adicionar comentários de auxílio e exportar o pacote de produção.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="xtool-card">
+                            <img class="img-logo" src="{{ asset('assets/image/logo-pequeno-xt.png') }}" class="" alt="">
+                            <span class="item-xtool">Xtool Script</span>
+                            <div class="text-tool">                                
+                                Aplicativo desenvolvido para criar os roteiros do conteúdo interativo, facilitando o desenvolvimento com rapidez e qualidade do material. Nele é possível criar as legendas, editar, remover ou alterar a posição delas. Tudo o trabalho de edição do roteiro com o suporte de imagens e vídeos de apoio ao material que será desenvolvido.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="xtool-card">
+                            <img class="img-logo" src="{{ asset('assets/image/logo-pequeno-xt.png') }}" class="" alt="">
+                            <span class="item-xtool">Xtool Protudion</span>
+                            <div class="text-tool">                                
+                                Aplicativo para criação de mídia interativa de forma rápida, intuitiva e organizada.Esta ferramenta permite exportar o conteúdo no formato desejado para diversos fins, exportar para aplicativos de autoria, aplicativos de apresentação, vídeo e formatos específicos contratados por nossos parceiros.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="xtool-card">
+                            <img class="img-logo" src="{{ asset('assets/image/logo-pequeno-xt.png') }}" class="" alt="">
+                            <span class="item-xtool">Xtool Simulation</span>
+                            <div class="text-tool">                                
+                                Aplicativo desenvolvido para criação de conteúdo interativo e vídeo interativo. Com ele é possível criar apresentações, quis, animações, treinamentos. Também é possível compilar em diversos formatos, pacote de publicação web, pacote de publicação local, ou publicar em nosso portal onde será gerado um link para acesso do conteúdo.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <div class="gradient">
@@ -116,7 +169,7 @@
                             <div class="footer-item">
                                 <a href="" class="btn-menu hide-mobile">Empresa</a>
                                 <a href="" class="btn-menu hide-mobile">Contato</a>
-                                <a href="" class="btn-menu">Cadastro</a>
+                                <a href="{{ url('registration') }}" class="btn-menu">Cadastro</a>
                             </div>
                         </div>
                     </div> 
