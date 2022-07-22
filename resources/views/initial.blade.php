@@ -20,8 +20,8 @@
                     <div class="col-md-12">
                         <div class="menu-top">
                             <div class="item">                                
+                                <div class="btn-menu ">Empresas</div>
                                 <div class="btn-menu ">Contato</div>
-                                <div class="btn-menu ">Sobre</div>
                             </div>
                             <div class="item">
                                 <div class="btn-menu">Entrar</div>                                
@@ -84,7 +84,7 @@
                         <img class="img-logo" src="{{ asset('assets/image/logo-pequeno-xt.png') }}" class="" alt="">                              
                         <span>Xtool Production</span>
                             <div class="text-tool">                                
-                                Xtoon Production, ferramente de suporte para criação de material para produção de conteúdo interativo.
+                                Xtoon Production, ferramenta de suporte para criação mídias para produção de conteúdo interativo.
                             </div>
                         </div>
                     </div>
@@ -104,7 +104,7 @@
         </div>
 
         <div class="container">
-            
+
         </div>
 
         
