@@ -189,6 +189,12 @@ body{
     opacity: 0.5;
 }
 
+.card-login{
+    border: solid 2px #ffffff26;
+    border-radius: 10px;
+    padding: 10px;
+}
+
 @media ( max-width: 768px){
     .space-vertical-item{
         margin-bottom: 15px;

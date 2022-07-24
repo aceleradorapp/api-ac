@@ -25,7 +25,7 @@
                                 <div class="btn-menu ">Contato</div>
                             </div>
                             <div class="item">
-                                <div class="btn-menu">Entrar</div>                                
+                                <a href="{{ route('login') }}" class="btn-menu">Entrar</a>                                
                             </div>
                         </div>
                     </div>

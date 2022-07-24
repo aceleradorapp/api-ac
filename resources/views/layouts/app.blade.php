@@ -18,12 +18,45 @@
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
 
     <!-- Styles -->
-    <link href="{{ asset('assets/css/style.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets/css/style.css') }}" rel="stylesheet"> 
+    <link href="{{ asset('assets/css/style-initialize.css') }}" rel="stylesheet">
 
 </head>
 <body>
 
-    <div class="image-background" class="shadow" style="position: fixed; z-index: -1; opacity:0.7">
+<div class="gradient">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="menu-top">
+                            <div class="item">                                
+                                <div class="btn-menu ">voltar</div>
+                                
+                            </div>
+                            <div class="item">
+                                                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row space-top">
+                    <div class="col-md-6">
+                        <div class="logo-init">
+                            <img src="{{ asset('assets/image/logoAC.png') }}" class="" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="content">
+                            
+                                     
+                        </div>
+                    </div>            
+
+                </div>
+            </div>            
+        </div>
+
+    <!-- <div class="image-background" class="shadow" style="position: fixed; z-index: -1; opacity:0.7">
         <img src="{{ asset('assets/image/banner.png') }}" alt="">
     </div>
 
@@ -46,7 +79,7 @@
 
             </div>
         </div>
-    </div>
+    </div> -->
 
 
 
