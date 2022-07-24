@@ -115,7 +115,7 @@ body{
 }
 
 .text-destac{
-    font-size: 25px !important;
+    font-size: 30px !important;
     font-family: Calibri;
 }
 
@@ -198,7 +198,8 @@ body{
     }
 
     .text-destac{
-        font-size: 18px !important;
+        font-size: 23px !important;
+        text-align: center;
     }
 
     .content-tools {

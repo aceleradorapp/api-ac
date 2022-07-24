@@ -38,10 +38,11 @@
                     </div>
                     <div class="col-md-6">
                         <div class="content">
-                            <p class="text-destac">Aceleradora de conteúdo foi criada com intuito de proporcionar conteúdos interativos com qualidade e agilidade na entrega. Formada por uma equipe capacitada, conseguimos atender todas as necessidades que você procura.</p>
-                            <p>Entre na sessão empresas e descubra mais.</p>
+                            
+                            <p class="text-destac">Aceleradora de conteúdo foi criado com o objetivo de aumentar a demanda de materiais interativos com maior qualidade e rapidez.</p>
+                            <p class="hide-mobile">Entre na sessão empresas e <a href="" style="color:#fff"><b>descubra mais.</b></a>.</p>                            
                             <br><br>
-                            <p>Faça parte de nossa equipe.</p>
+                            <p style="margin-left:5px">Faça parte de nossa equipe.</p>
                             <a href="{{ url('registration') }}" class="btn-menu btn-destac">Quero fazer parte da equipe</a>
                             <a href="{{ url('more') }}" class="btn-menu">Saiba mais</a>                            
                         </div>
