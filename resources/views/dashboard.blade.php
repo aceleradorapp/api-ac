@@ -1,4 +1,4 @@
-@extends('layouts.appdashboard')
+@extends('layouts.appDashboard.')
 
 @section('content') 
                                                                    
@@ -11,7 +11,7 @@
                     
                 </div>
             </div>             
-               
+
         </div>
     </div>
         
