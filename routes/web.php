@@ -61,5 +61,9 @@ Route::middleware('auth')->group(function(){
     Route::post('/payment', [App\Http\Controllers\PaymentController::class, 'show'])->name('payment');
     Route::post('/payment.do', [App\Http\Controllers\PaymentController::class, 'store'])->name('payment.do');
 
+    Route::get('/tools', function () {
+        return view('dashboard-tools');
+    });
+
 });
 

@@ -1,0 +1,24 @@
+
+.download-tool{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    color: #ff730b;
+}
+
+.download-tool a{
+    text-decoration: none;
+    color: #ff730b;
+}
+
+.download-tool i{
+    cursor: pointer;
+    transform: scale(1);
+    animation: scaleout 0.2s ease-in;
+}
+
+.download-tool i:hover{
+    transform: scale(1.2);
+    animation: scalein 0.1s ease-in;
+    color: #ffa500;
+}

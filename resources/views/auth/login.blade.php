@@ -29,9 +29,8 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="menu-top">
-                            <div class="item">                                
-                                <div class="btn-menu ">voltar</div>
-                                
+                            <div class="item">                                                                
+                                <a href="{{ url('/') }}" class="btn-menu">Voltar</a>
                             </div>
                             <div class="item">
                                                                
@@ -113,10 +112,13 @@
                     </div>            
 
                 </div>
+                <div class="row">
+                    <p class="hide-desktop" style="padding: 20px; color:#fff">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit vero reprehenderit iusto possimus unde ipsa optio distinctio fuga natus voluptatem eligendi, quia commodi alias ut consectetur minima quo culpa. Temporibus.</p>
+                </div>
             </div>            
         </div>
 
-        <div class="gradient footer-fixed">
+        <div class="gradient footer-fixed" style="position:fixed">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
@@ -134,10 +136,7 @@
         </div> 
 
 
-        <main class="py-4">
-            @yield('content')
-        </main>
-    {{-- </div> --}}
+        
 
     <script src="{{ asset('assets/js/jquery.js') }}"></script>
     <script src="{{ asset('assets/js/jquery.mask.js') }}"></script>

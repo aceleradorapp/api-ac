@@ -1,6 +1,6 @@
 @extends('layouts.aapAc')
 
-@section('content')
+@section('content') 
 
    <div class="container">
         <div class="row">

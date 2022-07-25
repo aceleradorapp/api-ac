@@ -113,9 +113,9 @@
 
                                 <div class="row mb-0">
                                     <div class="col-md-6 offset-md-4">                                    
-                                        <!-- <button type="submit--" class="btn-menu btn-destac" style="color: #ffffff !important; background-color: #ff9544 !important;">
+                                        <button type="submit--" class="btn-menu btn-destac" style="color: #ffffff !important; background-color: #ff9544 !important;">
                                             {{ __('Cadastrar') }}
-                                        </button> -->
+                                        </button>
                                     </div>
                                 </div>
                             </form>

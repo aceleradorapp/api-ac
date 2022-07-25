@@ -32,15 +32,17 @@ class HomeController extends Controller
             $person = Person::where('id', $user->id)->first();
 
             if(!$person){
-                return redirect()->route('profile');
+                //return redirect()->route('profile');
+                return view('dashboard');
             }else{
                 if($person->type == "10"){
                    // colocar pagina especial para o Owner, nivel 10
-                   return view('homeOwner');
+                   return view('homeOwner'); 
                 }
             }
         }
 
-        return view('home');
+        //return view('home');
+        return view('dashboard');
     }
 }

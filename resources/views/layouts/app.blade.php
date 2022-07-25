@@ -29,9 +29,8 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="menu-top">
-                            <div class="item">                                
-                                <div class="btn-menu ">voltar</div>
-                                
+                            <div class="item">                                                                
+                                <a href="{{ url('/') }}" class="btn-menu">Voltard</a>
                             </div>
                             <div class="item">
                                                                
