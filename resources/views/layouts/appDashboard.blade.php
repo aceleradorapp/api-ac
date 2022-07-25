@@ -54,8 +54,8 @@
                        <div class="tools-dashboard">
                             <a href="{{ url('home') }}" class="btn-menu btn-dashboard"><i class="fas fa-laptop-house fa-2x"></i></a>
                             <a href="{{ url('tools') }}" class="btn-menu btn-dashboard"><i class="fas fa-tools fa-2x"></i></a>
-                            <a href="" class="btn-menu btn-dashboard"><i class="far fa-chart-bar fa-2x"></i></a>
-                            <a href="" class="btn-menu btn-dashboard"><i class="far fa-user fa-2x"></i></a>
+                            <a href="#" class="btn-menu btn-dashboard disable-click"><i class="far fa-chart-bar fa-2x"></i></a>
+                            <a href="#" class="btn-menu btn-dashboard disable-click"><i class="far fa-user fa-2x"></i></a>
                        </div>
                     </div>                   
                 </div>
