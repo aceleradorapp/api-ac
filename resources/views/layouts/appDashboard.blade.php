@@ -49,7 +49,7 @@
                     </div>
                 </div>
 
-                <div class="row space-top">
+                <div class="row space-top"> 
                     <div class="col-md-12">
                        <div class="tools-dashboard">
                             <a href="{{ url('home') }}" class="btn-menu btn-dashboard"><i class="fas fa-laptop-house fa-2x"></i></a>
