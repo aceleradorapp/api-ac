@@ -118,6 +118,8 @@
             </div>            
         </div>
 
+        <br><br><br><br><br><br><br><br>
+
         <div class="gradient footer-fixed" style="position:fixed">
             <div class="container">
                 <div class="row">

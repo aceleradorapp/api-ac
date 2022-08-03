@@ -118,7 +118,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="content-info">
-                            <img class="" src="{{ asset('assets/image/logo-800x800-xt.png') }}" class="" alt="">
+                            <img class="" src="{{ asset('assets/image/xtools-banner.png') }}" class="" alt="">
                         </div>
                     </div>
                 </div>
@@ -165,6 +165,8 @@
             </div>
         </div>
 
+        <br><br><br><br>
+
         <div class="gradient">
             <div class="container">
                 <div class="row">
@@ -180,7 +182,7 @@
                     </div> 
                 </div>                
             </div>
-        </div>
+        </div>        
 
         <script src="{{ asset('assets/js/jquery.js') }}"></script>
         <script src="{{ asset('assets/js/bootstrap.js')}}"></script>
