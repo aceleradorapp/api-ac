@@ -56,17 +56,17 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <h1>Nossas ferramentas</h1>
+                        <h1>XTools Collection</h1>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-3 space-vertical-item">
                         <div class="item-tool">
                             <img src="{{ asset('assets/image/videoCapture.png') }}" class="" alt="">
-                            <img class="img-logo" src="{{ asset('assets/image/logo-pequeno-xt.png') }}" class="" alt="">                              
+                            <img class="img-logo" src="{{ asset('assets/image/logo-pequeno-xt-create.png') }}" class="" alt="">                              
                             <span>Xtool Create</span>
                             <div class="text-tool">  
-                                Mídia de suporte para roteiros.
+                                Criação de mídias em vídeo 
                             </div>
                         </div>
                     </div>
@@ -74,10 +74,10 @@
                     <div class="col-md-3 space-vertical-item">
                         <div class="item-tool">
                             <img src="{{ asset('assets/image/roteiro.png') }}" class="" alt="">
-                            <img class="img-logo" src="{{ asset('assets/image/logo-pequeno-xt.png') }}" class="" alt="">
-                            <span>Xtool Script</span>
+                            <img class="img-logo" src="{{ asset('assets/image/logo-pequeno-xt-script.png') }}" class="" alt="">
+                            <span style="color:#004f91 !important">Xtool Script</span>
                             <div class="text-tool">                                
-                                Roteiros.
+                                Elaboração de roteiros 
                             </div>
                         </div>
                     </div>
@@ -85,10 +85,10 @@
                     <div class="col-md-3 space-vertical-item">
                         <div class="item-tool">
                         <img src="{{ asset('assets/image/project-logo.png') }}" class="" alt="">
-                        <img class="img-logo" src="{{ asset('assets/image/logo-pequeno-xt.png') }}" class="" alt="">                              
-                        <span>Xtool Production</span>
+                        <img class="img-logo" src="{{ asset('assets/image/logo-pequeno-xt-production.png') }}" class="" alt="">                              
+                        <span style="color:#bf0aa8 !important">Xtool Production</span>
                             <div class="text-tool">                                
-                                Mídia de suporte para produção.
+                                Suporte ao produtor de mídia final 
                             </div>
                         </div>
                     </div>
@@ -96,10 +96,10 @@
                     <div class="col-md-3 space-vertical-item">
                         <div class="item-tool">
                             <img src="{{ asset('assets/image/tool-simulation.png') }}" class="" alt="">
-                            <img class="img-logo" src="{{ asset('assets/image/logo-pequeno-xt.png') }}" class="" alt="">
-                            <span>Xtool Simulation</span>
+                            <img class="img-logo" src="{{ asset('assets/image/logo-pequeno-xt-simulation.png') }}" class="" alt="">
+                            <span style="color:#dc0c0c !important">Xtool Simulation</span>
                             <div class="text-tool">                                
-                                Simulações e midia interativa.
+                                Simulador de software 
                             </div>
                         </div>
                     </div> 
@@ -125,19 +125,19 @@
                 <div class="row">
                     <div class="col-md-6">
                         <div class="xtool-card">
-                            <img class="img-logo" src="{{ asset('assets/image/logo-pequeno-xt.png') }}" class="" alt="">
+                            <img class="img-logo" src="{{ asset('assets/image/logo-pequeno-xt-create.png') }}" class="" alt="">
                             <span class="item-xtool">Xtool Create</span>
                             <div class="text-tool">                                
-                                Aplicativo desenvolvido para criação de mídias de suporte que será utilizado para desenvolver o roteiro do conteúdo interativo. Com ele é possível criar vídeos, legendas, adicionar comentários de auxílio e exportar o pacote de produção.
+                                Com está ferramenta é possível criar mídias em vídeo, e por meio dela é possível capturar telas, realizar edições, criar marcações, as quais serão utilizadas pelas outras etapas do processo para que seja feita a produção dos roteiros e das mídias.
                             </div>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="xtool-card">
-                            <img class="img-logo" src="{{ asset('assets/image/logo-pequeno-xt.png') }}" class="" alt="">
-                            <span class="item-xtool">Xtool Script</span>
+                            <img class="img-logo" src="{{ asset('assets/image/logo-pequeno-xt-script.png') }}" class="" alt="">
+                            <span class="item-xtool" style="color:#004f91 !important">Xtool Script</span>
                             <div class="text-tool">                                
-                                Aplicativo desenvolvido para criar os roteiros do conteúdo interativo, facilitando o desenvolvimento com rapidez e qualidade do material. Nele é possível criar as legendas, editar, remover ou alterar a posição delas. Tudo o trabalho de edição do roteiro com o suporte de imagens e vídeos de apoio ao material que será desenvolvido.
+                                Responsável pela criação de roteiros, os quais devem ser baseados nas mídias em vídeos. Com a sua utilização a produção ficará mais rápida e fácil, pois essa ferramenta nos permite visualizar o conteúdo base, ou seja, os textos ordenados de acordo com a mídia em vídeo, e ao mesmo tempo conseguimos visualizar a interação em vídeo. Aqui o editor consegue acompanhar em tempo real cada passo desta interação, com o suporte do conteúdo básico e informações que ajudarão a escrever o roteiro.
                             </div>
                         </div>
                     </div>
@@ -145,19 +145,19 @@
                 <div class="row">
                     <div class="col-md-6">
                         <div class="xtool-card">
-                            <img class="img-logo" src="{{ asset('assets/image/logo-pequeno-xt.png') }}" class="" alt="">
-                            <span class="item-xtool">Xtool Protudion</span>
+                            <img class="img-logo" src="{{ asset('assets/image/logo-pequeno-xt-production.png') }}" class="" alt="">
+                            <span class="item-xtool" style="color:#bf0aa8 !important">Xtool Protudion</span>
                             <div class="text-tool">                                
-                                Aplicativo para criação de mídia interativa de forma rápida, intuitiva e organizada.Esta ferramenta permite exportar o conteúdo no formato desejado para diversos fins, exportar para aplicativos de autoria, aplicativos de apresentação, vídeo e formatos específicos contratados por nossos parceiros.
+                                Por meio desta ferramenta é possível capturar imagens e também sequências de imagens. Além disso, podemos criar, capturar e gerar vídeos e criar simulações de software utilizando as mídias que foram geradas pelo aplicativo Create. Ao terminar o produtor consegue gerar o conteúdo final exportando para os formatos de pacote de publicação web e local e em mídia para outros sistemas de autoria.
                             </div>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="xtool-card">
-                            <img class="img-logo" src="{{ asset('assets/image/logo-pequeno-xt.png') }}" class="" alt="">
-                            <span class="item-xtool">Xtool Simulation</span>
+                            <img class="img-logo" src="{{ asset('assets/image/logo-pequeno-xt-simulation.png') }}" class="" alt="">
+                            <span class="item-xtool" style="color:#dc0c0c !important">Xtool Simulation</span>
                             <div class="text-tool">                                
-                                Aplicativo desenvolvido para criação de conteúdo interativo e vídeo interativo. Com ele é possível criar apresentações, quis, animações, treinamentos. Também é possível compilar em diversos formatos, pacote de publicação web, pacote de publicação local, ou publicar em nosso portal onde será gerado um link para acesso do conteúdo.
+                                Fazendo uso dessa ferramenta podemos criar simulações de software, desenvolver animações e realizar edição de áudio e vídeo. Além disso, o produtor consegue gerar o conteúdo final exportando para os formatos de pacote de publicação web e local, publicar no portal e em mídia para outros sistemas de autoria.
                             </div>
                         </div>
                     </div>
@@ -172,9 +172,9 @@
                         <div class="footer">
                             <!-- <img src="{{ asset('assets/image/logoAC.png') }}" class="hide-mobile" alt="" style="width:5%; margin-top: 30px;"> -->
                             <div class="footer-item">
-                                <a href="" class="btn-menu hide-mobile">Empresa</a>
+                                <!-- <a href="" class="btn-menu hide-mobile">Empresa</a>
                                 <a href="" class="btn-menu hide-mobile">Contato</a>
-                                <a href="{{ url('registration') }}" class="btn-menu">Cadastro</a>
+                                <a href="{{ url('registration') }}" class="btn-menu">Cadastro</a> -->
                             </div>
                         </div>
                     </div> 
