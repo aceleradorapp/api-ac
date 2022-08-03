@@ -113,6 +113,10 @@ body{
     padding: 50px 0;
 }
 
+.content-info img{
+    width: 100%;
+}
+
 .content-tools{
     padding: 35px 0;
     color: #ff730b;
