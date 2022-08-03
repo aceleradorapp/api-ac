@@ -146,7 +146,7 @@
                     <div class="col-md-6">
                         <div class="xtool-card">
                             <img class="img-logo" src="{{ asset('assets/image/logo-pequeno-xt-production.png') }}" class="" alt="">
-                            <span class="item-xtool" style="color:#bf0aa8 !important">Xtool Protudion</span>
+                            <span class="item-xtool" style="color:#bf0aa8 !important">Xtool Production</span>
                             <div class="text-tool text-destac-1 text-destac-purple">                                
                                 Por meio desta ferramenta é possível capturar imagens e também sequências de imagens. Além disso, podemos criar, capturar e gerar vídeos e criar simulações de software utilizando as mídias que foram geradas pelo aplicativo Create. Ao terminar o produtor consegue gerar o conteúdo final exportando para os formatos de pacote de publicação web e local e em mídia para outros sistemas de autoria.
                             </div>
