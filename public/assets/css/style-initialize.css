@@ -121,7 +121,7 @@ body{
 
 .content-tools h1{
     font-family: Calibri;
-    color: #ffc59a;
+    color: #ff740d;
 }
 
 .item-tool{
@@ -244,6 +244,28 @@ body{
     border-radius: 10px;
     padding: 10px;
 }
+
+.text-destac-1{
+    font-weight: 500;
+}
+
+.text-destac-orange{
+    color: #ef7200;
+}
+
+.text-destac-blue{
+    color: #004f91;
+}
+
+
+.text-destac-purple{
+    color: #bf0aa8;
+}
+
+.text-destac-red{
+    color: #dc0c0c;
+}
+
 
 @media ( max-width: 768px){
     .space-vertical-item{
