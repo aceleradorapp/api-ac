@@ -58,11 +58,17 @@
                     </div>
                     <div class="col-md-6">
                         <h1 class="hide-mobile">Como fazer parte de nossa equipe</h1>
-                        <p style="opacity:0.7; font-size: 18px; color: black;">Oferecemos treinamentos para as pessoas que gostariam de fazer parte da nossa equipe de produção interativa e isso poder ser uma boa opção de remuneração trabalhando totalmente no conforte de sua casa.
-                            Para fazer parte da nossa equipe, primeiro é necessário criar um conta no portal para ter acesso ao nosso conteúdo.
-                            Feito isso, será liberado um treinamento onde conhecerá todo o processo de criação dos conteúdos, detalhando cada etapa e o uso dos aplicativos.
-                            Conhecendo todo o processo, poderá escolher qual ou quais etapas o seu perfil atende e fazer os treinamentos com os aplicativos usados nas etapas escolhidas.
-                            Realizado estas etapas pode solicitar materiais para trabalhar no próprio site.
+                        <p style="opacity:0.7; font-size: 18px; color: black;">
+                            De início é essencial você saber que oferecemos treinamentos para pessoas que queiram e gostariam de 
+                            ser mais um membro do nosso time de produção interativa. Além disso, após estar integrado conosco este pode ser 
+                            uma boa opção de remuneração trabalhando totalmente no conforto de sua casa. E para isso, 
+                            primeiramente é necessário criar uma conta em nosso portal para ter acesso a todos os conteúdos. 
+                            Após, será liberado um treinamento onde você conhecerá todo o processo de criação, onde será detalhado cada etapa e 
+                            como é feito o uso dos aplicativos. Conhecendo todo o processo, poderá escolher qual ou quais etapas
+                            se enquadram mais com o seu perfil, e na sequência deverá realizar os treinamentos 
+                            com os aplicativos usados nas etapas escolhidas. Com todo esse assunto absorvido você já estará pronto para começar,
+                            e a partir daí basta somente solicitar os materiais para trabalhar no próprio site. 
+                            Não perca mais tempo, e venha ser mais um integrante da nossa equipe!
                         </p>
                         <a href="{{ url('registration') }}" class="btn-menu" style="color: #ffffff !important; background-color: #ff9544 !important;">
                             Criar minha conta

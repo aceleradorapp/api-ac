@@ -121,7 +121,10 @@
                             </form>
                         </div>
                         <div >
-                            <p>Assim que concluir o cadastro em nosso portal, receberá um e-mail de para comprovação de da sua conta na sua caixa de mensagem e seja muito bem-vindo a equipe aceleradora de conteúdo.</p>
+                            <p>
+                                Assim que concluir o cadastro em nosso portal, receberá um e-mail em sua caixa de mensagem para comprovação de sua conta. 
+                                Após, realizar este processo você já estará fazendo parte a nossa equipe aceleradora de conteúdo. Seja muito bem-vindo!
+                            </p>
                         </div>
                     </div>                    
                 </div>  
@@ -130,7 +133,7 @@
         </div>
 
         <br><br><br><br><br><br><br><br>
-        
+
         <div class="gradient footer-fixed">
             <div class="container">
                 <div class="row">

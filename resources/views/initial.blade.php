@@ -39,7 +39,7 @@
                     <div class="col-md-6">
                         <div class="content">
                             
-                            <p class="text-destac">Aceleradora de conteúdo foi criado com o objetivo de aumentar a demanda de materiais interativos com maior qualidade e rapidez.</p>
+                            <p class="text-destac">Desenvolvida com o objetivo de atender empresas que trabalham com textos, vídeos, mídias, entre outros. A principal da finalidade Aceleradora de conteúdo é aumentar a demanda de materiais interativos e realizar conteúdos com maior qualidade e rapidez.</p>
                             <p class="hide-mobile">Entre na sessão empresas e <a href="" style="color:#fff"><b>descubra mais.</b></a>.</p>                            
                             <br><br>
                             <p style="margin-left:5px">Faça parte de nossa equipe.</p>
@@ -106,7 +106,7 @@
                 </div>
                 <div class="row justify-content-md-center">
                     <div class="col-md-10">
-                        <p class="text-destac-xtools">A Xtolls é uma coleção aplicativos e serviços para desktop, dispositivos móveis e também disponível on-line no portal Aceleradora de conteúdo. São ferramentas para criação de material interativo, simulações, experiência do usuário e muito mais.</p>
+                        <p class="text-destac-xtools">A Xtolls é uma coleção de ferramentas para criação de material interativo, simulações, além de proporcionar uma experiência inovadora para todos os usuários, e muito mais. Saiba que elas podem ser utilizadas tanto no desktop, dispositivos móveis e também estarão disponíveis on-line no portal Aceleradora de conteúdo.</p>
                         <p class="text-destac-xtools">Agora você pode dar vida as suas idéias!</p>
                     </div>
                 </div>                
