@@ -106,7 +106,7 @@
                 </div>
                 <div class="row justify-content-md-center">
                     <div class="col-md-10">
-                        <p class="text-destac-xtools">A Xtolls é uma coleção de ferramentas para criação de material interativo, simulações, além de proporcionar uma experiência inovadora para todos os usuários, e muito mais. Saiba que elas podem ser utilizadas tanto no desktop, dispositivos móveis e também estarão disponíveis on-line no portal Aceleradora de conteúdo.</p>
+                        <p class="text-destac-xtools">A Xtools é uma coleção de ferramentas para criação de material interativo, simulações, além de proporcionar uma experiência inovadora para todos os usuários, e muito mais. Saiba que elas podem ser utilizadas tanto no desktop, dispositivos móveis e também estarão disponíveis on-line no portal Aceleradora de conteúdo.</p>
                         <p class="text-destac-xtools">Agora você pode dar vida as suas idéias!</p>
                     </div>
                 </div>                
