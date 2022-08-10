@@ -117,7 +117,7 @@
     transform: scale(1.05);
 }
 
-@charset "UTF-8";
+/* @charset "UTF-8"; */
 @font-face {
   font-family: centuryGothic;
   src: url(/fonts/Century-Gothic.ttf?19caf930de8d117a48c42e2473f98c88);

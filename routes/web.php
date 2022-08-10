@@ -31,6 +31,10 @@ Route::get('/registration', function () {
     return view('registration');
 });
 
+Route::get('/company', function () {
+    return view('company');
+});
+
 Auth::routes();
 
 

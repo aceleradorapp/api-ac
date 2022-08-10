@@ -130,9 +130,8 @@
                 </div>  
                 
             </div>
-        </div>
-
-        <br><br><br><br><br><br><br><br>
+            <br><br><br><br><br>
+        </div>        
 
         <div class="gradient footer-fixed">
             <div class="container">
@@ -141,9 +140,7 @@
                         <div class="footer">
                             <!-- <img src="{{ asset('assets/image/logoAC.png') }}" class="hide-mobile" alt="" style="width:5%; margin-top: 30px;"> -->
                             <div class="footer-item">
-                                <a href="" class="btn-menu hide-mobile">Empresa</a>
-                                <a href="" class="btn-menu hide-mobile">Contato</a>
-                                <a href="{{ url('registration') }}" class="btn-menu hide-mobile">Cadastro</a>
+                              
                             </div>
                         </div>
                     </div> 

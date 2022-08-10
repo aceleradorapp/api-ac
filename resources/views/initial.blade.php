@@ -21,8 +21,8 @@
                     <div class="col-md-12">
                         <div class="menu-top">
                             <div class="item">                                
-                                <div class="btn-menu ">Empresas</div>
-                                <div class="btn-menu ">Contato</div>
+                                <a href="{{ url('company') }}" class="btn-menu ">Empresas</a>
+                                <a class="btn-menu ">Contato</a>
                             </div>
                             <div class="item">
                                 <a href="{{ route('login') }}" class="btn-menu">Entrar</a>                                

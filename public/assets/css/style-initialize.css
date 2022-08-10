@@ -119,6 +119,7 @@ body{
 }
 
 .content-tools{
+    height: 100%;
     padding: 35px 0;
     color: #ff730b;
     background-color: #ce7a3924; 
