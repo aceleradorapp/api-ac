@@ -22,7 +22,7 @@
                         <div class="menu-top">
                             <div class="item">                                
                                 <a href="{{ url('company') }}" class="btn-menu ">Empresas</a>
-                                <a class="btn-menu ">Contato</a>
+                                <!-- <a class="btn-menu ">Contato</a> -->
                             </div>
                             <div class="item">
                                 <a href="{{ route('login') }}" class="btn-menu">Entrar</a>                                
@@ -40,7 +40,7 @@
                         <div class="content">
                             
                             <p class="text-destac">Desenvolvida com o objetivo de atender empresas que trabalham com textos, vídeos, mídias, entre outros. A principal da finalidade Aceleradora de conteúdo é aumentar a demanda de materiais interativos e realizar conteúdos com maior qualidade e rapidez.</p>
-                            <p class="hide-mobile">Entre na sessão empresas e <a href="" style="color:#fff"><b>descubra mais.</b></a>.</p>                            
+                            <p class="hide-mobile">Entre na sessão empresas e <a href="" style="color:#fff"><b><a href="{{ url('company') }}" style="text-decorate:none; color:#fff">descubra mais.</a></b></a>.</p>                            
                             <br><br>
                             <p style="margin-left:5px">Faça parte de nossa equipe.</p>
                             <a href="{{ url('registration') }}" class="btn-menu btn-destac">Quero fazer parte da equipe</a>
