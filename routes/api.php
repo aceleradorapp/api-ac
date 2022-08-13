@@ -20,7 +20,7 @@ use Illuminate\Support\Facades\Storage;
 */
 
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
-    return $request->user();
+    return auth('api')->user();
 });
 
 Route::get('/test', function () {
@@ -32,10 +32,8 @@ Route::middleware('client')->get('/products', function (Request $request) {
     return $request->user();
 });
 
-Route::middleware('auth:api')->get('/userAuthenticated', function (Request $request) {
-    $user = new User();
-    $user = Auth::user();
-    return User::user();
+Route::middleware('auth:api')->get('/userAuthenticated', function (Request $request) {    
+    return auth('api')->user();
 });
 
 
