@@ -7,6 +7,7 @@ use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Storage;
 
+
 /*
 |--------------------------------------------------------------------------
 | API Routes
@@ -31,8 +32,10 @@ Route::middleware('client')->get('/products', function (Request $request) {
     return $request->user();
 });
 
-Route::middleware('auth:api')->get('/user', function (Request $request) {
-    return User::where('id', 1)->first();
+Route::middleware('auth:api')->get('/userAuthenticated', function (Request $request) {
+    $user = new User();
+    $user = Auth::user();
+    return User::user();
 });
 
 
