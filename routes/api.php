@@ -27,6 +27,13 @@ Route::get('/test', function () {
     return [10, 20 ,30];
 });
 
+Route::get('/logoutUser', function () {
+    $request->user()->token()->revoke();
+    return response()->json([
+        'message' => 'Successfully logged out'
+    ]);
+});
+
 
 Route::middleware('client')->get('/products', function (Request $request) {
     return $request->user();
@@ -35,6 +42,7 @@ Route::middleware('client')->get('/products', function (Request $request) {
 Route::middleware('auth:api')->get('/userAuthenticated', function (Request $request) {    
     return auth('api')->user();
 });
+
 
 
 Route::middleware('auth:api')->get('/project', [App\Http\Controllers\Project\projectController::class, 'show'])->name('project');
