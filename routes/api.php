@@ -28,7 +28,7 @@ Route::get('/test', function () {
 });
 
 Route::middleware('auth:api')->get('/logoutUser', function () {
-    Auth::user()->AauthAcessToken()->delete();
+    Auth::logout();
 });
 
 
