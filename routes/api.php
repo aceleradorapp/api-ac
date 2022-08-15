@@ -27,11 +27,8 @@ Route::get('/test', function () {
     return [10, 20 ,30];
 });
 
-Route::get('/logoutUser', function () {
-    auth('api')->user()->token()->revoke();
-    return response()->json([
-        'message' => 'Successfully logged out'
-    ]);
+Route::middleware('auth:api')->get('/logoutUser', function () {
+    Auth::user()->AauthAcessToken()->delete();
 });
 
 
