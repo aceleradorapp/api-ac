@@ -28,7 +28,7 @@ Route::get('/test', function () {
 });
 
 Route::get('/logoutUser', function () {
-    $request->user()->token()->revoke();
+    auth('api')->user()->token()->revoke();
     return response()->json([
         'message' => 'Successfully logged out'
     ]);
